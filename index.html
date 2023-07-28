@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+</head>
+
+<body>
+    <!-- 
+    SEO = 검색엔진 최적화, 싸이트의 콘텐츠 페이지의 정보가
+    검색에 얼마나 노출되는지, 사용자에게 정보를 전달함에있어서
+    적합한지를 점수를 매겨서 상위에 노출시키거나, 혹은
+    멀리 보내버려서 보이지 않게하거나 하는 일을 합니다
+    또한 컨텐츠의 본질의 중요성을 판단하기도 하고, 같은 컨텐츠
+    인경우에는 그 판단의 기준에는 메타태그가 큰영향을 끼칩니다
+
+    SEO를 위한 개념
+    1. index(색인) : 포털 사이트는 모든 페이지를 색인이라는 곳에
+    저장합니다 즉 어떤 페이지를 만들어서 올리면 그 페이지의
+    고유 URL이 입혀지고 URL이 색인에 저장되는 구조
+    2. crawling(크롤링) : 페이지에서 정보를 추출하는 일을
+    말합니다
+    새페이지 혹은 업데이트 된 페이지가 생성되면 크롤링을
+    거쳐서 업데이트되어 새로운 페이지가 index에 저장됩니다
+    3. web crawler (크롤러)
+    크롤링을 하는 자동 소프트웨어
+    4. 구글봇
+    구글이만든 크롤러
+    - SEO를 한다는 것은 구글봇이라는 크롤러가 내 싸이트에
+    와서 크롤링을 해서 색인에 잘 저장하도록 하는것
+
+    meta태그의 종류
+
+    1. <title>Document</title> 최대 40글자까지 가능합니다
+    2. <meta name="description" content="웹페이지에 대한 설명">
+    구글은 160자까지 가능, 네이버는 80자까지
+    보통 한국에서는 80자까지만 만족시킵니다
+    3. <meta name="keywords" content="">
+    최신에 SEO리스트에서 제외되었다
+    4. <meta name="robots" content="index,follow">
+    robots자리에는 해당포털의 크롤러 이름을 적는다
+    content자리에는 해당 크롤러의 제어문을 적는것
+    적는이유 : 저품질 페이지로 판단되는 것을 방지하기 위한
+    수단입니다
+    robots : 모든 검색엔진의 크롤러를 대상으로한다는 뜻
+    googlebot : 구글 크롤러를 지칭
+    yeti : 네이버 크롤러
+    daumoa : 다음 크롤러
+    zumbot : zum의 크롤러
+
+    content 속성에 적용될 수 있는 값
+    all : 색인 및 크롤링에 제한이 없는 기본값으로
+        index, follow를 동시에 적용한다는 뜻
+    index : 페이지가 색인되어서 검색결과에 표시될수 있다는 뜻
+    noindex : 검색결과에 내페이지를 표시하지 않겠다
+    follow : 내페이지와 링크된 페이지 모두를 수집하고,검색할
+    수있도록 허락하겠다는 뜻
+    nofollow : 내페이지 포함 링크된 페이지 모두를 수집하지 
+    못하게 하겠다는 뜻
+    none : noindex, nofollow를 동시적용
+    nosnippet : 검색결과에 페이지에 대한 스니펫 즉 
+    미리보기를    지원하지 않겠다는 뜻
+    예시)<meta name="yeti" content="noindex, nofollow"> 
+    <meta name="robots" content="index,follow">
+    오픈 그래프 
+    어떤 html문서의 메타정보를 쉽게 표시하기 위해서
+    메타정보에 해당하는 제목, 설명, 대표URL등 다향한 요소들을
+    사람들이 통일해서 쓸수 있도록 정의한 프로토콜로, 메타에
+    의해서 메타데이터 표기 방법을 최적화한 메소드입니다
+    즉 콘텐츠의 요약 내용이 SNS에 게시 되는데에 최적화된
+    데이터를 가지고 갈 수 있도록 설정하는 것이 오픈그래프
+
+    기본적으로 웹에 설정해워야 하는 og 메타태그
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://example.com/page.html"> 
+    <meta property="og:title" content="Content Title">
+    모든 페이지들이 다 사용하기 때문에 쓰지않으면 도태되는
+    meta태그가 되어서 반드시 써야하는 메타태그가 되었습니다
+
+ -->
+
+</body>
+
+</html>

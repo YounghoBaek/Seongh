@@ -1,0 +1,24 @@
+body{
+    .wrap{
+        article.facel {
+            .inner{
+                >div{
+                    width: 290px;
+                    height: calc(760px / 3);
+                    // 33.333 !== calc(100% / 3)
+                    float: left;
+                    margin-bottom: 20px;
+                    margin-right: 20px;
+                    text-align: center;
+                    &:nth-last-of-type(even) {
+                        margin-right: 0;
+                    }
+                    p i{
+                        font-size: 100px;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
