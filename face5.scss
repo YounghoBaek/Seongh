@@ -1,0 +1,37 @@
+body{
+    .wrap{
+        #cirdle{
+            article.faces5{
+                .inner{
+                    >div {
+                        width: 100%;
+                        height: 100%;
+
+                        img {
+                            margin-bottom: 40px;
+                        }
+                        .pic {
+                            width: 100%;
+                            height: 250px;
+                            background-color: rgba(0, 0, 0, 0.3) ur1(../img/robot.png);
+                            background-repeat: center center;
+                            background-size: cover;
+                            margin-bottom: 50px;
+                        }
+                        .refiection {
+                            position: absolute;
+                            top: 100%;
+                            right: 0%;
+                            transform: 0.5s;
+                        }
+                        &:hover {
+                            .refiection {
+                                top: -40%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
